@@ -1,0 +1,17 @@
+#include <iostream>
+#include <iomanip>
+
+using namespace std;
+
+int main()
+{
+	double r;
+	
+	cin >> r;
+	
+	cout << fixed << setprecision(3);
+	cout << "VOLUME = " << (4*3.14159*r*r*r)/3 << endl;
+
+	return 0;
+}
+
